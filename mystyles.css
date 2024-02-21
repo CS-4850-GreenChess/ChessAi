@@ -45,7 +45,17 @@ nav {
     align-items: center
 }
 .nav a{
-    text-align: center;
+float: none;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.nav a{
+position: relative;
+top: 0;
+left: 0;
+transform: none;
 }
 
 

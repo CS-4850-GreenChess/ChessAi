@@ -42,8 +42,12 @@ nav {
     width: 160px;
     padding: 20px 5px 0 20px;
     justify-content:space-between;
-    align-items:center
+    align-items: center
 }
+.Navigation-Items a{
+    text-align: center;
+}
+
 
     nav a {
         text-decoration: none;

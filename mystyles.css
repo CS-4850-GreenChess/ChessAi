@@ -34,16 +34,6 @@ h1 {
     background-color: ##231F20;
     color: #ffffff;
 }
-
-nav {
-    font-weight: bold;
-    padding: 5px;
-    float: left;
-    width: 160px;
-    padding: 20px 5px 0 20px;
-    justify-content:space-between;
-    align-items: center
-}
 .nav {
     text-align: center;
 }
@@ -54,29 +44,6 @@ nav {
     text-decoration: none;
     color: black; /* Adjust link color as needed */
 }
-
-
-    nav a {
-        text-decoration: none;
-    }
-
-        nav a:link {
-            color: #000033;
-        }
-
-        nav a:visited {
-            color: #344873
-        }
-
-        nav a:hover {
-            color: #FFFFFF;
-        }
-
-    nav ul {
-        list-style-type: none;
-        margin: 0;
-        padding-left: 0;
-    }
 
 h2 {
     color: #000000;

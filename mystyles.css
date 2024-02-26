@@ -34,15 +34,27 @@ h1 {
     background-color: ##231F20;
     color: #ffffff;
 }
-.nav {
-    text-align: center;
+nav { 
+    font-weight: bold;
+     padding: 5px;
+     float:left;
+     width: 160px;
+     padding: 20px 5px 0 20px;
+     text-align: center;
 }
-
-.nav a {
-    display: inline-block;
-    margin: 0 10px; /* Adjust the horizontal spacing between links */
+nav a { 
     text-decoration: none;
-    color: black; /* Adjust link color as needed */
+    display: inline-block;
+    margin: 0 10px; 
+    text-decoration: none;
+    color: black; 
+}
+nav a:link { color: #000033; }
+nav a:visited { color: #344873 }
+nav a:hover { color: #FFFFFF; }
+nav ul { list-style-type: none;
+       margin: 0;
+       padding-left: 0;
 }
 
 h2 {

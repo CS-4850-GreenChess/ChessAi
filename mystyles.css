@@ -44,18 +44,15 @@ nav {
     justify-content:space-between;
     align-items: center
 }
-.nav a{
-float: left;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
+.nav {
+    text-align: center;
 }
-.nav a{
-position: relative;
-top: 0;
-left: 0;
-transform: none;
+
+.nav a {
+    display: inline-block;
+    margin: 0 10px; /* Adjust the horizontal spacing between links */
+    text-decoration: none;
+    color: black; /* Adjust link color as needed */
 }
 
 

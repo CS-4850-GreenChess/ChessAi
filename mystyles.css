@@ -44,10 +44,7 @@ nav {
 }
 nav a { 
     text-decoration: none;
-    display: inline-block;
-    margin: 0 10px; 
-    text-decoration: none;
-    color: black; 
+    display: inline-block; 
 }
 nav a:link { color: #000033; }
 nav a:visited { color: #344873 }

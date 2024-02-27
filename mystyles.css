@@ -42,14 +42,14 @@ nav {
      padding: 20px 5px 0 20px;
      text-align: center;
 }
-nav a { 
+.nav a { 
     text-decoration: none;
     display: inline-block; 
 }
-nav a:link { color: #000033; }
-nav a:visited { color: #344873 }
-nav a:hover { color: #FFFFFF; }
-nav ul { list-style-type: none;
+.nav a:link { color: #000033; }
+.nav a:visited { color: #344873 }
+.nav a:hover { color: #FFFFFF; }
+.nav ul { list-style-type: none;
        margin: 0;
        padding-left: 0;
 }

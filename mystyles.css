@@ -34,15 +34,17 @@ h1 {
     background-color: ##231F20;
     color: #ffffff;
 }
-.nav {
-    text-align: center;
+nav { 
+    font-weight: bold;
+     padding: 5px;
+     float:left;
+     width: 160px;
+     padding: 20px 5px 0 20px;
+     text-align: center;
 }
-
-.nav a {
-    display: inline-block;
-    margin: 0 10px; 
+.nav a { 
     text-decoration: none;
-    color: #FFFFFF; 
+    display: inline-block; 
 }
 .nav a:link { color: #000033; }
 .nav a:visited { color: #344873 }

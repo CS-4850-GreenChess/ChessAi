@@ -34,10 +34,9 @@ h1 {
     background-color: ##231F20;
     color: #ffffff;
 }
-nav { 
+.nav { 
     font-weight: bold;
      padding: 5px;
-     float:left;
      width: 160px;
      padding: 20px 5px 0 20px;
      text-align: center;

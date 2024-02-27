@@ -22,6 +22,10 @@ header {
     font-family: Arial, helvetica;
     ;
 }
+.pic {
+    display: flex;
+    justify-content: center;
+}
 
 h1 {
     line-height: 200%;

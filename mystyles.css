@@ -49,11 +49,6 @@ nav {
 .nav a:link { color: #000033; }
 .nav a:visited { color: #344873 }
 .nav a:hover { color: #FFFFFF; }
-.nav ul { list-style-type: none;
-       margin: 0;
-       padding-left: 0;
-}
-
 h2 {
     color: #000000;
     font-family: Arial, helvetica;

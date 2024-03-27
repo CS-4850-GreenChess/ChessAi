@@ -1,5 +1,5 @@
 ﻿body {
-    background: pink;
+    background: white;
     background-image: url(background.jpg);
     color: #000000;
     font-family: Arial, helvetica;
@@ -47,6 +47,16 @@ h1 {
     margin: 0 10px; /* Adjust the horizontal spacing between links */
     text-decoration: none;
     color: black; /* Adjust link color as needed */
+}
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row::after{
+    content:"";
+    clear:both;
+    display:table;
 }
 h2 {
     color: #000000;

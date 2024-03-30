@@ -59,9 +59,6 @@ h1 {
         height: auto; /* Maintain aspect ratio */
         margin: 5px; /* Add some margin between images */
     }
-.row{
-    display: flex;
-}
 h2 {
     color: #000000;
     font-family: Arial, helvetica;

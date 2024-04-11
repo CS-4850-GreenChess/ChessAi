@@ -1,11 +1,8 @@
-﻿body {
-    background: #000000;
-    background-image: url(background.jpg);
+body {
+    background: white; /* Ensures the background color is white */
     color: #000000;
-    font-family: Arial, helvetica;
-    ;
+    font-family: Arial, Helvetica; /* Corrects the font-family declaration */
 }
-
 #wrapper {
     width: 80%;
     min-width: 700px;
@@ -18,13 +15,8 @@
 
 header {
     background-color: #000000;
-    color: #000000;
-    font-family: Arial, helvetica;
-    ;
-}
-.pic {
-    display: flex;
-    justify-content: center;
+    color: #FFFFFF; /* Changes text color to white for readability */
+    font-family: Arial, Helvetica;
 }
 
 h1 {
@@ -36,45 +28,14 @@ h1 {
     height: 72px;
     margin-bottom: 0;
     background-color: #000000;
-    color: #000000;
-}
-.nav {
-    text-align: center;
+    color: #FFFFFF; /* Ensures text is visible on a black background */
 }
 
 .nav a {
     display: inline-block;
-    margin: 0 10px; /* Adjust the horizontal spacing between links */
+    margin: 0 10px;
     text-decoration: none;
-    color: black; /* Adjust link color as needed */
-}
-.row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-
-.column {
-  text-align: center; /* Centers the caption text below the image */
-}
-
-.column img {
-  display: block; /* Removes bottom margin/whitespace under the image */
-}
-h2 {
-    color: #000000;
-    font-family: Arial, helvetica;
-}
-
-dt {
-    color: #000000;
-    font-weight: bold;
-}
-
-.resort {
-    color: #000000;
-    font-size: 1.2em;
+    color: #000000; /* Ensures consistency in link color */
 }
 
 footer {
@@ -83,36 +44,14 @@ footer {
     font-style: italic;
     padding: 10px;
     margin-left: 170px;
-    background-color: #FFFFFF;
-}
-
-h3 {
-    color: #000000;
+    background-color: #FFFFFF; /* Ensures footer background is white */
 }
 
 main {
     padding-left: 20px;
     padding-right: 20px;
-    background-color: black;
+    background-color: #FFFFFF; /* Ensures main content background is white */
     margin-left: 170px;
     padding-top: 1px;
     padding-bottom: 1px;
-}
-
-    main img {
-        float: left;
-        padding-right: 20px;
-        padding-bottom: 20px;
-    }
-
-    main ul {
-        list-style-position: inside;
-    }
-
-.clear {
-    clear: both;
-}
-
-header, nav, main, footer {
-    display: block;
 }

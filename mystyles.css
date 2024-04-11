@@ -1,11 +1,10 @@
-﻿body {
-    background: #000000;
+﻿﻿body {
+    background: white;
     background-image: url(background.jpg);
     color: #000000;
     font-family: Arial, helvetica;
     ;
 }
-
 #wrapper {
     width: 80%;
     min-width: 700px;
@@ -15,10 +14,9 @@
     background-color: #55aa55;
     box-shadow: 3px 3px 3px #666666;
 }
-
 header {
-    background-color: #000000;
-    color: #000000;
+    background-color: #231F20;
+    color: #ffffff;
     font-family: Arial, helvetica;
     ;
 }
@@ -26,7 +24,6 @@ header {
     display: flex;
     justify-content: center;
 }
-
 h1 {
     line-height: 200%;
     text-align: center;
@@ -35,13 +32,13 @@ h1 {
     padding-left: 20px;
     height: 72px;
     margin-bottom: 0;
-    background-color: #000000;
-    color: #000000;
+    background-color: ##231F20;
+    color: #ffffff;
+    color: black;
 }
 .nav {
     text-align: center;
 }
-
 .nav a {
     display: inline-block;
     margin: 0 10px; /* Adjust the horizontal spacing between links */
@@ -54,11 +51,9 @@ h1 {
   align-items: center;
   gap: 20px;
 }
-
 .column {
   text-align: center; /* Centers the caption text below the image */
 }
-
 .column img {
   display: block; /* Removes bottom margin/whitespace under the image */
 }
@@ -66,17 +61,14 @@ h2 {
     color: #000000;
     font-family: Arial, helvetica;
 }
-
 dt {
     color: #000000;
     font-weight: bold;
 }
-
 .resort {
     color: #000000;
     font-size: 1.2em;
 }
-
 footer {
     font-size: 0.70em;
     text-align: center;
@@ -85,34 +77,28 @@ footer {
     margin-left: 170px;
     background-color: #FFFFFF;
 }
-
 h3 {
     color: #000000;
 }
-
 main {
     padding-left: 20px;
     padding-right: 20px;
-    background-color: black;
+    background-color: #FFFFFF;
     margin-left: 170px;
     padding-top: 1px;
     padding-bottom: 1px;
 }
-
     main img {
         float: left;
         padding-right: 20px;
         padding-bottom: 20px;
     }
-
     main ul {
         list-style-position: inside;
     }
-
 .clear {
     clear: both;
 }
-
 header, nav, main, footer {
     display: block;
 }
